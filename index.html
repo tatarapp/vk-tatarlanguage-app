@@ -11,16 +11,16 @@
 	<center>			
 		<p style="font-size: 38px;font-weight: bold;padding-top: 2px;" id="time">Затрачено времени: 0 сек</p>
 		<p style="font-size: 38px;font-weight: bold;padding-top: 2px;" id="result"></p>
-					
-		<p style="font-size: 38px;font-weight: bold;padding-top: 2px;" id="question"></p>
-		
-		<button onclick="check(1)" class="tatar" id="option1"></button>
-		
-		<button onclick="check(2)" class="tatar" id="option2"></button>
-		
-		<button onclick="check(3)" class="tatar" id="option3"></button>
-		
-		<button onclick="check(4)" class="tatar" id="option4"></button>
+				
+		<div id="question-container">
+			<p style="font-size: 38px;font-weight: bold;padding-top: 2px;" id="question"></p>
+		</div>
+		<div id="answer-container">
+			<button onclick="check(1)" class="tatar" id="option1"></button>
+			<button onclick="check(2)" class="tatar" id="option2"></button>
+			<button onclick="check(3)" class="tatar" id="option3"></button>
+			<button onclick="check(4)" class="tatar" id="option4"></button>
+		</div>
 	</center><br>
 	<center>
 		<button id="start" class="tatar" onclick="check(0)">Приступить к тесту</button>
