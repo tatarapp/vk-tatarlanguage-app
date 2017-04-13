@@ -28,10 +28,10 @@ body{
 }
 
 #answer-container{
+	height: 35px;
 	margin-top: 10px;
 }
 
 img{
-	height:50%;
 	width:50%;
 }

@@ -43,11 +43,11 @@ function check(num){
 
 	if(num == 0){ 
 	
-		document.getElementById('option1').style.display='block';
-		document.getElementById('option2').style.display='block';
-		document.getElementById('option3').style.display='block';
-		document.getElementById('option4').style.display='block';
-		document.getElementById('question').style.display='block';
+		document.getElementById('option1').style.display='inline';
+		document.getElementById('option2').style.display='inline';
+		document.getElementById('option3').style.display='inline';
+		document.getElementById('option4').style.display='inline';
+		document.getElementById('question').style.display='inline';
 
 		document.getElementById('option1').innerHTML=data_array[cur_answer][1];
 		document.getElementById('option2').innerHTML=data_array[cur_answer][2];
