@@ -1,32 +1,30 @@
 //Массив вопросов и ответа
 var data_array = [
-  ["<img src='img/1.jpg'><br>","Кыска чәчле","Озын чәчле","Баш","Озын толым",3],
-  ["<img src='img/2.jpg'><br>","Чәч","Чал чәчле","Кара чәчле","Жирән чәчле",2],
-  ["<img src='img/3.jpg'><br>","Көчле","Матур кыз","Пеләш","Ябык",1],
-  ["<img src='img/4.jpg'><br>","Тырнак","Бармак","Кул","Беләк",3],
-  ["<img src='img/5.jpg'><br>","Аяк","Кул юу","Йодрык","Бот",3],
-  ["<img src='img/6.jpg'><br>","Уч","Тез","Табан","Укчә",1],
-  ["<img src='img/7.jpg'><br>","Батыр","Патша","Ир-ат","Хан",3],
-  ["<img src='img/8.jpg'><br>","Халык","Табун","әбиләр","Кызлар",2],
-  
-  
-  ["<img src='img/9.jpg'><br>","Ми","Баш сөяге","Такыя","Тән",1],
-  ["<img src='img/10.jpg'><br>","Каравылчы","Тимерче","Пешекче","Очучы",2],
-  ["<img src='img/11.jpg'><br>","Күмер","Көмеш","Агач","Тимер",1],
-  ["<img src='img/12.jpg'><br>","Балтачы","Кошчы","Укчы","Сугыш",3],
-  ["<img src='img/13.jpg'><br>","Табиб","Очучы","Сатучы","Тегүче",2],
-  ["<img src='img/14.jpg'><br>","Шагыйрь","Язучы","Рәссам","Сугышчы",2],
-  ["<img src='img/15.jpg'><br>","Тәрҗемәче","Спортчы","Янгын сүндерүче","үзе аучы",3],
-  ["<img src='img/16.jpg'><br>","Ат","Кәҗә","Ата књгђрчен","Сыер",1],
-  ["<img src='img/17.jpg'><br>","Тавык","Эт","Тәкә","Бүре",3],
-  ["<img src='img/18.jpg'><br>","Төлке","Дөя","Аю","Бозау",2],
-  ["<img src='img/19.jpg'><br>","Үгез","Мөгез","Сөт","Дуңгыз",1],
-  ["<img src='img/20.jpg'><br>","Эремчек","Ботка","Шулпа","Бәрәңге",1],
-  ["<img src='img/21.jpg'><br>","Көчек","Айгыр","Эт","Бия",3],
-  ["<img src='img/22.jpg'><br>","Карбыз","Кабак","Чия","Кыяр",3],
-  ["<img src='img/23.jpg'><br>","Йөзем","Кура җиләге","Карлыган","Как",2],
-  ["<img src='img/24.jpg'><br>","Кавын","өрек","Кызыл карлыган","Караҗимеш",3],
-  ["<img src='img/25.jpg'><br>","Кара бөрлегән","Нарат җиләге","Мүк җиләге","Кара миләш",1],
+  ["<img src='img/1.jpg' class='q_img'><br>","Кыска чәчле","Озын чәчле","Баш","Озын толым",3],
+  ["<img src='img/2.jpg' class='q_img'><br>","Чәч","Чал чәчле","Кара чәчле","Жирән чәчле",2],
+  ["<img src='img/3.jpg' class='q_img'><br>","Көчле","Матур кыз","Пеләш","Ябык",1],
+  ["<img src='img/4.jpg' class='q_img'><br>","Тырнак","Бармак","Кул","Беләк",3],
+  ["<img src='img/5.jpg' class='q_img'><br>","Аяк","Кул юу","Йодрык","Бот",3],
+  ["<img src='img/6.jpg' class='q_img'><br>","Уч","Тез","Табан","Укчә",1],
+  ["<img src='img/7.jpg' class='q_img'><br>","Батыр","Патша","Ир-ат","Хан",3],
+  ["<img src='img/8.jpg' class='q_img'><br>","Халык","Табун","әбиләр","Кызлар",2],
+  ["<img src='img/9.jpg' class='q_img'><br>","Ми","Баш сөяге","Такыя","Тән",1],
+  ["<img src='img/10.jpg' class='q_img'><br>","Каравылчы","Тимерче","Пешекче","Очучы",2],
+  ["<img src='img/11.jpg' class='q_img'><br>","Күмер","Көмеш","Агач","Тимер",1],
+  ["<img src='img/12.jpg' class='q_img'><br>","Балтачы","Кошчы","Укчы","Сугыш",3],
+  ["<img src='img/13.jpg' class='q_img'><br>","Табиб","Очучы","Сатучы","Тегүче",2],
+  ["<img src='img/14.jpg' class='q_img'><br>","Шагыйрь","Язучы","Рәссам","Сугышчы",2],
+  ["<img src='img/15.jpg' class='q_img'><br>","Тәрҗемәче","Спортчы","Янгын сүндерүче","үзе аучы",3],
+  ["<img src='img/16.jpg' class='q_img'><br>","Ат","Кәҗә","Ата књгђрчен","Сыер",1],
+  ["<img src='img/17.jpg' class='q_img'><br>","Тавык","Эт","Тәкә","Бүре",3],
+  ["<img src='img/18.jpg' class='q_img'><br>","Төлке","Дөя","Аю","Бозау",2],
+  ["<img src='img/19.jpg' class='q_img'><br>","Үгез","Мөгез","Сөт","Дуңгыз",1],
+  ["<img src='img/20.jpg' class='q_img'><br>","Эремчек","Ботка","Шулпа","Бәрәңге",1],
+  ["<img src='img/21.jpg' class='q_img'><br>","Көчек","Айгыр","Эт","Бия",3],
+  ["<img src='img/22.jpg' class='q_img'><br>","Карбыз","Кабак","Чия","Кыяр",3],
+  ["<img src='img/23.jpg' class='q_img'><br>","Йөзем","Кура җиләге","Карлыган","Как",2],
+  ["<img src='img/24.jpg' class='q_img'><br>","Кавын","өрек","Кызыл карлыган","Караҗимеш",3],
+  ["<img src='img/25.jpg' class='q_img'><br>","Кара бөрлегән","Нарат җиләге","Мүк җиләге","Кара миләш",1],
 ];
 
 var plus = 0;
@@ -40,9 +38,13 @@ function sec() {
 }
 
 function check(num){
-
+		
+		document.getElementById('intro_img').style.display='none';
+		document.getElementById('question-container').style.display='block';
+		document.getElementById('answer-container').style.display='block';
+		
 	if(num == 0){ 
-	
+		
 		document.getElementById('option1').style.display='inline';
 		document.getElementById('option2').style.display='inline';
 		document.getElementById('option3').style.display='inline';
@@ -93,7 +95,11 @@ function check(num){
 			if(percent>70) res = 'Хорошо!';
 			if(percent==100) res = 'Отлично!';
 			
-			document.getElementById('result').innerHTML='Правильных ответов: ' + plus + ' из ' + count_answer + ' (' + percent + '%)<br>' + res;
+			document.getElementById('answer-container').style.display='none';
+			document.getElementById('result').style.display='block';
+			document.getElementById('result').innerHTML='Правильных ответов: ' + plus + ' из ' + count_answer + ' (' + percent + '%) - ' + res;
+			document.getElementById('question-container').style.display='none';
+			document.getElementById('finish_img').style.display='block';
 		}
 	}
 }
