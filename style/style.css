@@ -51,3 +51,7 @@ body{
 #result{
 	display: none;
 }
+
+.doc-links{
+	margin:10px;
+}
